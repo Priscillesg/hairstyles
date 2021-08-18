@@ -1,0 +1,25 @@
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+}
+
+.main-menu{
+    display: flex;   
+}
+
+.main-menu > a {
+    text-decoration: none;
+    
+}
+
+.signIn {
+    font-size: 15px;
+}
+
+
+.image-logo {
+    width: 50px;
+    height: 50px;
+}

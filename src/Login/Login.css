@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.background-color {
+    background-image:linear-gradient( rgba(8, 8, 8, 0.5), rgba(8, 8, 8, 0.596) ), url(../images/fakurian-design-E8Ufcyxz514-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-login {
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: auto;
+    align-items: center;
+}
+
+.container-login h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container-login button {
+    color: white;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: lightblue;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.secondary {
+    width: 100px;
+}
+
+
+.login-input{
+    width: 437px;
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.form-control {
+ 
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.form-control{
+    background-color: transparent;
+    border: 0;
+    /* border-bottom: 2px white solid; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: white;
+}
+
+
+label {
+    display: inline-block;
+    font-size: 20px;
+} 

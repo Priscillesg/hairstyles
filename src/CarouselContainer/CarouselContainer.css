@@ -1,0 +1,72 @@
+
+.slider {
+    background-color: black;
+    color: white;
+}
+
+
+.row > .photo-image {
+    max-width: 300px;
+    max-height: 350px;
+    min-width: 200px;
+    min-height: 350px;
+    /* margin: 5px; */
+    background-color: rgba(235, 233, 233, 0.954);
+    border-radius: 5px;
+}
+
+.business-app {
+    width: 70%;
+}
+
+.image-businessDetails {
+    width: 100%;
+    height: 100%;
+    opacity: 5;
+}
+
+.business-app > .row {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    /* max-width: 600px;   
+    max-height: 400px; */
+}
+
+.image-container {
+    position: relative;
+    transition: transform 0.2s;
+
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+
+}
+
+.favorites-icon {
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 10px;
+    background-color: rgba(227, 104, 104, 0.914);
+    padding: 10px;
+ 
+}

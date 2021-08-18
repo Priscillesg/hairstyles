@@ -1,0 +1,17 @@
+.nav-bar {
+   position: relative;
+  
+}
+
+.test-navbar {
+    position: absolute;
+    top: 120%;
+    left: 17%;
+    height: 60px;
+}
+
+.comp {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
